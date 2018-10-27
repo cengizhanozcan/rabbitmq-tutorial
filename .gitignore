@@ -107,3 +107,7 @@ buildNumber.properties
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+/rabbitmq-sender/*.cmd
+/rabbitmq-receiver/*.cmd
+/rabbitmq-sender/mvnw
+/rabbitmq-receiver/mvnw

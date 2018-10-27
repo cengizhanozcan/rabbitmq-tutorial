@@ -1,12 +1,19 @@
 package com.cenk.tutorial.rabbitmqreceiver;
 
-import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * The type Rabbitmq receiver application.
+ */
 @SpringBootApplication
 public class RabbitmqReceiverApplication {
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         SpringApplication.run(RabbitmqReceiverApplication.class, args);
     }
